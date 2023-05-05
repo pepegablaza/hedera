@@ -1,0 +1,5 @@
+Created topic with id: 0.0.4569615
+Look at topic messages: https://hashscan.io/testnet/topic/0.0.4569615
+Err: {"name":"StatusError","status":"INVALID_SIGNATURE","transactionId":"0.0.4568020@1683283004.258257384","message":"receipt for transaction 0.0.4568020@1683283004.258257384 contained error status INVALID_SIGNATURE"}
+
+Sent message to topic: 0.0.4569615, message: 2023-05-05T10:36:54.567Z

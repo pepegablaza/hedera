@@ -1,0 +1,22 @@
+{
+  "name": "hedera",
+  "version": "1.0.0",
+  "description": "hedera certification",
+  "main": "index.js",
+  "scripts": {
+    "task:setup": "node src/setup.js",
+    "task:token-service": "node src/token-service.js",
+    "task:smart-contract": "node src/smart-contract.js",
+    "task:scheduled-transaction": "node src/scheduled-transaction.js",
+    "task:multi-signature": "node src/multi-signature.js",
+    "task:consensus-service": "node src/consensus-service.js"
+  },
+  "author": "Mario Blazevic",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.24.2"
+  }
+}
